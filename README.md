@@ -14,14 +14,20 @@
 
 ### Endpoints
 
-| METHOD   | URL                                     | DESCRIPTION            |
-| ---------|:---------------------------------------:|:----------------------:|
-| GET      | http://localhost:8000/api/employee/     | Get all employees      |
-| GET      | http://localhost:8000/api/employee/{id} | Get an employee by id  |
-| POST     | http://localhost:8000/api/employee/     | Create employee        |
-| PUT      | http://localhost:8000/api/employee/{id} | Update an employee     |  
-| PATCH    | http://localhost:8000/api/employee/{id} | Update an employee     |  
-| DELETE   | http://localhost:8000/api/employee/{id} | Delete an employee     |  
+*URL BASE*
+
+Development: [http://localhost:8000/](http://localhost:8000/)
+
+Production:  [https://rest-api-basic.herokuapp.com/](https://rest-api-basic.herokuapp.com/)
+
+| METHOD   | URL               | DESCRIPTION            |
+| ---------|:-----------------:|:----------------------:|
+| GET      | api/employee/     | Get all employees      |
+| GET      | api/employee/{id} | Get an employee by id  |
+| POST     | api/employee/     | Create employee        |
+| PUT      | api/employee/{id} | Update an employee     |  
+| PATCH    | api/employee/{id} | Update an employee     |  
+| DELETE   | api/employee/{id} | Delete an employee     |  
 
 REQUEST
 
