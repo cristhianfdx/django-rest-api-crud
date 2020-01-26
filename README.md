@@ -14,8 +14,21 @@
 
 ### Endpoints
 
-| METHOD        | URL           | REQUEST  |DESCRIPTION|
-| ------------- |-----------------------------------:|:--------:|:----------:|
-| GET      |http://localhost:8000/api/employee/||Get all employees|
-| GET      |http://localhost:8000/api/employee/{id}||Get one employee by id|
-| POST     |http://localhost:8000/api/employee/    |       |Create employee|
+| METHOD   | URL                                     | DESCRIPTION            |
+| ---------|:---------------------------------------:|:----------------------:|
+| GET      | http://localhost:8000/api/employee/     | Get all employees      |
+| GET      | http://localhost:8000/api/employee/{id} | Get an employee by id  |
+| POST     | http://localhost:8000/api/employee/     | Create employee        |
+| PUT      | http://localhost:8000/api/employee/{id} | Update an employee     |  
+| PATCH    | http://localhost:8000/api/employee/{id} | Update an employee     |  
+| DELETE   | http://localhost:8000/api/employee/{id} | Delete an employee     |  
+
+REQUEST
+
+```
+{ 
+    "fullname": "string",
+    "document_number": "string",
+    "mobile_number": "string"
+} 
+```
