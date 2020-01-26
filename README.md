@@ -2,7 +2,8 @@
 
 ## Local deployment
 
-### Run app
+### Run app 
+(_Only development environment_)
 - Execute commands in the terminal
     - Enter the project folder: `cd <folder_name>`
     - Create virtual environment: `virtualenv .venv`
